@@ -1,0 +1,295 @@
+[06-Jun-2019 06:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:35:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:35:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:37:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:40:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:41:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:41:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:42:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:43:02 UTC] PHP Warning:  include(): https:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:43:02 UTC] PHP Warning:  include(https://staging-new.finquote.com.au/redbook_script/config.php): failed to open stream: no suitable wrapper could be found in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:43:02 UTC] PHP Warning:  include(): Failed opening 'https://staging-new.finquote.com.au/redbook_script/config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:43:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:44:50 UTC] PHP Warning:  include(redbook_script/config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:44:50 UTC] PHP Warning:  include(redbook_script/config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:44:50 UTC] PHP Warning:  include(): Failed opening 'redbook_script/config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:44:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:45:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:46:23 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:46:23 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:46:23 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:46:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:47:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/submit.php(3): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:48:11 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:48:11 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:48:11 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:48:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:49:08 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:08 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:08 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:49:50 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:50 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:50 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:49:58 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:58 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:58 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:49:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:50:20 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:50:20 UTC] PHP Warning:  include(../config.php): failed to open stream: No such file or directory in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:50:20 UTC] PHP Warning:  include(): Failed opening '../config.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 2
+[06-Jun-2019 06:50:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 06:50:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 12
+[06-Jun-2019 06:51:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config2.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config2.php on line 12
+[06-Jun-2019 06:52:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config2.php:12
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config2.php on line 12
+[06-Jun-2019 06:53:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:10
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 10
+[06-Jun-2019 06:55:34 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'mynew106_fin_new'@'localhost' to database '	mynew106_finquote_new' in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 10
+[06-Jun-2019 06:59:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:18
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 18
+[06-Jun-2019 07:00:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 07:01:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 07:01:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/mynew106/public_html/staging-new/redbook_script/index.php:180
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 07:02:39 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 07:02:39 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 182
+[06-Jun-2019 07:08:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:18
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 18
+[06-Jun-2019 07:09:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:18
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 18
+[06-Jun-2019 07:09:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/mynew106/public_html/staging-new/redbook_script/config.php:18
+Stack trace:
+#0 /home/mynew106/public_html/staging-new/redbook_script/index.php(2): include()
+#1 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/config.php on line 18
+[06-Jun-2019 09:28:41 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 09:28:41 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 182
+[06-Jun-2019 09:31:55 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 09:31:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 182
+[06-Jun-2019 09:32:01 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 09:32:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 182
+[06-Jun-2019 09:32:28 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 09:32:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 182
+[06-Jun-2019 09:33:53 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 09:33:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 182
+[06-Jun-2019 10:15:19 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 10:15:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 182
+[06-Jun-2019 10:15:34 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 10:15:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 182
+[06-Jun-2019 10:16:43 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 10:17:08 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 10:17:40 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 10:17:56 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 180
+[06-Jun-2019 10:18:37 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 175
+[06-Jun-2019 10:29:42 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/mynew106/public_html/staging-new/redbook_script/index.php on line 20
+[06-Jun-2019 13:11:05 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAudi%5D%26Model%3D%5BA1%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[06-Jun-2019 13:11:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[06-Jun-2019 13:14:00 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BCSV%5D%26Model%3D%5BLa+Classe%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[06-Jun-2019 13:14:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[06-Jun-2019 13:44:56 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=15&amp;evnt=pagination&amp;q=Make%3D%5BCSV%5D%26Model%3D%5BBullet%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[06-Jun-2019 13:44:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit_data_new.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit_data_new.php on line 62
+[06-Jun-2019 23:31:58 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BHolden+Special+Vehicles%5D%26Model%3D%5BCalais%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[06-Jun-2019 23:31:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[06-Jun-2019 23:41:24 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BHolden+Special+Vehicles%5D%26Model%3D%5BCalais%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[06-Jun-2019 23:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[12-Jun-2019 11:14:51 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlfa+Romeo%5D%26Model%3D%5B4C%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[12-Jun-2019 11:14:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[12-Jun-2019 11:25:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/mynew106/public_html/staging-new/redbook_script/submit.php:165) in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 166
+[12-Jun-2019 11:31:24 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BArmstrong+Siddeley%5D%26Model%3D%5BStar+Sapphire%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[12-Jun-2019 11:31:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[12-Jun-2019 11:35:30 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlpina%5D%26Model%3D%5BB4%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[12-Jun-2019 11:35:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[12-Jun-2019 11:42:37 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlpina%5D%26Model%3D%5BB4%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[12-Jun-2019 11:42:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[12-Jun-2019 11:57:50 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlfa+Romeo%5D%26Model%3D%5B4C%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[12-Jun-2019 11:57:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[12-Jun-2019 12:04:44 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlfa+Romeo%5D%26Model%3D%5B4C%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[12-Jun-2019 12:04:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[12-Jun-2019 12:06:35 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlpina%5D%26Model%3D%5BB4%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[12-Jun-2019 12:06:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[12-Jun-2019 12:11:36 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlfa+Romeo%5D%26Model%3D%5B4C%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[12-Jun-2019 12:11:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[13-Jun-2019 11:21:15 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BTata%5D%26Model%3D%5BTelcoline%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 11:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[13-Jun-2019 11:27:05 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BTata%5D%26Model%3D%5BXenon%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 11:27:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[13-Jun-2019 11:29:06 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=15&amp;evnt=pagination&amp;q=Make%3D%5BTata%5D%26Model%3D%5BTelcoline%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 11:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit_data_new.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit_data_new.php on line 62
+[13-Jun-2019 11:30:10 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=15&amp;evnt=pagination&amp;q=Make%3D%5BTata%5D%26Model%3D%5BXenon%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 11:30:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit_data_new.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit_data_new.php on line 62
+[13-Jun-2019 11:52:29 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BHolden%5D%26Model%3D%5BAstra%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 11:52:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[13-Jun-2019 11:56:15 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BArmstrong+Siddeley%5D%26Model%3D%5BStar+Sapphire%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 11:56:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[13-Jun-2019 13:57:24 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlpina%5D%26Model%3D%5BB4%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 13:57:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[13-Jun-2019 14:00:37 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAbarth%5D%26Model%3D%5B500%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 14:00:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[13-Jun-2019 14:50:13 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BAlpina%5D%26Model%3D%5BB7%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[13-Jun-2019 14:50:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63
+[17-Jun-2019 04:21:27 UTC] PHP Warning:  file_get_contents(https://www.redbook.com.au/cars/results?s=&amp;evnt=&amp;q=Make%3D%5BVolkswagen%5D%26Model%3D%5BCaravelle%5D): failed to open stream: HTTP request failed!  in /home/mynew106/public_html/staging-new/redbook_script/simple_html_dom.blade.php on line 77
+[17-Jun-2019 04:21:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function find() on boolean in /home/mynew106/public_html/staging-new/redbook_script/submit.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/mynew106/public_html/staging-new/redbook_script/submit.php on line 63

@@ -1,0 +1,50 @@
+.table-cont-mid td {
+	vertical-align: middle !important;
+	height: 45px;
+}
+
+.td-number {
+	text-align: right;
+}
+
+.sidebar-left {
+	width: 220px;
+}
+
+ul.nav-main > li.nav-active > a {
+	padding: 10px 10px 15px 15px;
+}
+
+ul.nav-main li a {
+	padding: 10px 10px 15px 15px;
+}
+
+ul.nav-main li .nav-children li a {
+	padding: 5px 15px 5px 48px;
+}
+
+@media only screen and (min-width: 768px) {
+	html.fixed .content-body {
+		margin-left: 220px;
+	}
+
+	html.fixed .page-header	{
+		left: 220px;
+	}
+
+	html.fixed .inner-toolbar {
+		left: 220px;
+	}
+
+	html.fixed .inner-toolbar {
+		top: 110px;
+	}
+}
+
+.sidebar-left {
+	box-shadow: 0px 0 0;
+}
+
+.inner-toolbar {
+	border-left: 1px solid #3a3a3a;
+}

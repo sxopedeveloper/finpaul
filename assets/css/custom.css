@@ -1,0 +1,727 @@
+	html, body { background: #000 !important; }
+
+	#calendar .fc-resizer.fc-end-resizer, #calendar .fc-resizer, #calendar .fc-end-resizer{display:none!important;}
+	#main_list_filter_form .panel-body{ background-color:#000; border:1px solid transparent;}
+	#main_list_filter_form .panel-body b{ color: #58c603;}
+	
+	#tableData .panel-body { background-color: #000; border: 1px solid #ccc; padding:0px !important; border-radius:0px;}
+	#tableData table{}
+	#tableData tr{ }
+	#tableData th{ color: #58c603;}
+	#tableData td{color: #fff; background-color:#000000}
+	
+	/********************************** My Css***************************************/
+	#main_list_filter_form .panel-body .form-control, #main_list_filter_form .select2-container .select2-choice{ background-color:transparent; border:none; border-bottom:1px solid #fff; border-radius:0px; color: #999;margin-bottom: 15px !important;}
+	#main_list_filter_form .select2-container .select2-choice .select2-arrow{ border-left:1px solid transparent;}
+	#main_list_filter_form .panel-body .form-control:focus { outline:none; box-shadow:none;}
+	#main_list_filter_form .panel-body .search-filter-btn{ border-radius:0px !important;  margin-right:10px;}
+	::-webkit-input-placeholder { /* Chrome */
+	  color: #999;
+	}
+	:-ms-input-placeholder { /* IE 10+ */
+	  color: #999;
+	}
+	::-moz-placeholder { /* Firefox 19+ */
+	  color: #999;
+	  opacity: 1;
+	}
+	:-moz-placeholder { /* Firefox 4 - 18 */
+	  color: #999;
+	  opacity: 1;
+	}
+	.mt10{ margin-top:10px;}
+	.no-border{ border:0px !important;}
+	
+	.model-new-design,.model-new-design .panel-body,.model-new-design .panel-footer{ background-color:#000;}
+	.model-new-design .panel-footer { border-top:0px;}
+	.popup-detail h3{ font-weight:bold; color:#58c603;}
+	.fa_app_inp .num_inp.h3-text{width:50%;   font-size: 20px;font-weight:bold; color:#58c603;}	
+	.popup-detail span{ font-size:14px; color:#fff;}
+	.mt20{ margin-top:20px;}
+	.mt50{ margin-top:50px;}
+	.mt40{ margin-top:40px;}
+	.mb30{ margin-bottom:30px;}
+	.ptb10{ padding:10px 0px !important;}
+	.p10{ padding:10px !important;}
+	.popup-detail .personal-detail p{ font-size:13px; color:#58c603; margin-bottom:0px; line-height:17px; font-weight:600;}
+	.popup-detail .personal-detail p.value{ font-size:13px; color:#fff; margin-bottom:10px; line-height:17px;}
+	.popup-detail .personal-detail span{ color:#58c603;}
+	.text-white { color:#fff;}
+	.text-blue { color:blue !important;}
+	.popup-detail h4{ font-weight:bold; margin-top:0px;}
+	.map p{color:#58c603; padding:15px 0px 0px 0px; font-size:18px; margin-bottom:0px;}
+	.bmw {position: absolute; right: 20%; top: 35%;}
+	.personal-detail p span i {vertical-align: text-top;}
+	.personal-detail hr {border:1px solid #fff; height:0px;}
+
+	/******************* Fa Application 3 Custom CSS **********************/
+
+	/*#main_list_filter_form .panel-body .form-control, #main_list_filter_form .select2-container .select2-choice*/
+	.fa_app_inp  option {
+		color: #000;
+	}
+	.fa_app_inp .address_inp {
+		background-color: transparent !important;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0px;
+		color: #fff;
+		margin-bottom: 2px !important;
+		display: inline-block;
+		width: 70%;
+		height: 20px;
+		margin-top: -6px;
+		    padding: 2px 2px 0px 2px;
+	}
+	.fa_app_inp .num_inp {
+		background-color: transparent;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0px;
+		color: #fff;
+		margin-bottom: 2px !important;
+		display: inline-block;
+		width: 41%;
+		height: 20px;
+		margin-top: 0px;
+		    padding: 2px 2px 0px 2px;
+	}
+	.fa_app_inp .num_inp:focus {
+		box-shadow: none !important;
+	}
+	.fa_app_inp .num_inp::placeholder {
+		color: #fff;
+	}
+	
+	.fa_app_inp .address_inp:focus {
+		box-shadow: none !important;
+	}
+	.fa_app_inp .address_inp::placeholder {
+		color: #fff;
+	}
+	.fa_app_inp .email_inp {
+		background-color: transparent !important;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0px;
+		color: #fff;
+		margin-bottom: 2px !important;
+		display: inline-block;
+		width: 60%;
+		height: 20px;
+		margin-top: -6px;
+		    padding: 2px 2px 0px 2px;
+	}
+	
+	.fa_app_inp .email_inp:focus {
+		box-shadow: none !important;
+	}
+	.fa_app_inp .email_inp::placeholder {
+		color: #fff;
+	}
+	.fa_app_inp .car_detail .form-group {
+		margin-top: 0px;
+		padding-left: 0px !important;
+	}
+	.fa_app_inp .car_make .form-group {
+		margin-top: 7px;
+		padding-left: 0px !important;
+	}
+	.fa_app_inp .car_dealer .form-group {
+		margin-top: 7px;
+		padding-left: 0px !important;
+	}
+	.fa_app_inp .car_detail .hide_show_text {
+		border-bottom: none !important;
+	}
+	.fa_app_inp .car_make .hide_show_text {
+		border-bottom: none !important;
+	}
+	.fa_app_inp .car_dealer .hide_show_text {
+		border-bottom: none !important;
+	}
+	.hide_show_text{border-bottom: none !important;}
+
+	/******************* Fa Application 3 Custom CSS End **********************/
+	
+
+	/******************* Dealer Account Home Page CSS **********************/
+
+	.dealer-contact-detail-main .dealer-contact-form p {
+		color: #58c603;
+		font-size: 14px;
+	}
+	.dealer-contact-detail-main .dealer-contact-form .form-control {
+		background: transparent;
+		border: 2px solid #fff;
+		color: #fff;
+	}
+	.dealer-contact-detail-main .dealer-contact-form .form-control:focus {
+		box-shadow: none !important;
+	}
+	.dealer-contact-detail-main {
+		margin-bottom: 30px;
+	}
+	.dealer-account-notifiy-main .dealer-account-message .panel {
+		margin-bottom: 15px !important;
+	}
+	.dealer-account-notifiy-main .dealer-account-message .panel {
+		background: #58c603;
+		padding: 5px 5px !important;
+	}
+	.dealer-account-notifiy-main .dealer-account-message .panel a {
+		color: #fff !important;
+		font-weight: 600;
+		text-decoration: none;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+	.dealer-account-notifiy-main .dealer-account-message .panel .badge {
+		float: right;
+		background: red;
+		font-size: 15px;
+		border-radius: 50% !important;
+	}
+	.dealer-account-notifiy-main .dealer-account-message .panel .span-pending {
+		float: right;
+		font-size: 15px;
+		color: #fff;
+		font-weight: 600;
+		padding-right: 8px;
+	}
+
+	@media (max-width: 767px) {
+		.dealer-contact-detail-main .dealer-contact-form .form-control {
+			background: transparent;
+			border: 2px solid #000;
+			color: #000;
+		}
+	}
+
+	/***************** Dealer Quote List CSS *******************/
+
+	.dealer-quote-list-main { 
+		border-radius: 0px !important; 
+	}
+	.dealer-quote-list-main .dealer-list-body {
+		border-radius: 0px !important;
+		background: #000; 
+		padding-top: 0px;
+	}
+	.dealer-quote-list-main .dealer-list-body h5 {
+		color: #58c603;
+		margin-bottom: 10px !important;		
+		font-size: 15px !important;
+		font-weight: 600;
+	}
+	.dealer-quote-list-main .dealer-list-body .btn-group > a {
+		background-color: #58c603;
+		border: none;
+		border-radius: 0px;
+		color: #fff !important;
+		padding: 4px 12px !important;
+		font-size: 15px;
+	}
+	.dealer-quote-list-main .dealer-list-filter-content .form-group {
+		margin-bottom: 20px;
+	}
+	.dealer-quote-list-main .dealer-list-filter-content .form-group .form-control {
+		background: transparent;
+		border: none;
+		border-bottom: 1px solid #fff;
+		border-radius: 0px;
+		color: #ccc !important;
+	}
+	.dealer-quote-list-main .dealer-list-filter-content .form-group .form-control:focus {
+		box-shadow: none !important;
+	}
+	.dealer-quote-list-main .select2-container .select2-choice {
+		background: transparent !important;
+		border: 2px solid #fff !important; 
+		color: #fff !important;
+	}
+	.dealer-quote-list-main .dealer-quote-list-table .select2-container .select2-choice .select2-drop-active {
+		background: transparent !important; 
+	}
+	.dealer-quote-list-main label, .dealer-quote-list-main .dataTables_info {
+		color: #fff;
+	}
+	.dealer-quote-list-main .dataTables_filter .form-control {
+		background: transparent;
+		border: 2px solid #fff;
+	}
+	.dealer-quote-list-main .dealer-quote-list-table .quote-download-button {
+		margin-left: 15px;
+	}
+	.dealer-quote-list-main .dealer-quote-list-table th {
+		color: #58c603;
+		text-align: center;
+	}
+	.dealer-quote-list-main .dealer-quote-list-table td {
+		color: #fff;
+		text-align: center;
+	}
+	.dealer-quote-list-main .dealer-quote-list-table .dealer-status {
+		text-align: left !important;
+	}
+	.dealer-quote-list-main .quote-list-filter {
+		margin-bottom: 15px;
+	}
+	.dealer-quote-list-main .quote-list-filter .btn-default {
+		background: #58c603;
+		border: none !important;
+		border-radius: 0px;
+		color: #fff;
+		font-weight: 400;
+		font-size: 15px;
+		padding: 7px 18px !important;
+		/*width: 15%;*/
+		display: inline-block;
+	}
+	.dealer-quote-list-main .quote-list-filter .clear-btn {
+		background: #fff;
+		border: none !important;
+		color: #000;
+		font-weight: 400;
+		border-radius: 0px;
+		font-size: 15px;
+		padding: 7px 18px !important;
+		/*width: 15%;*/
+		margin-left: 15px;
+		display: inline-block;
+	}
+
+	/************ Fa Application 3 Modal ************/
+
+	.dealer-modal-main {
+		background-color: #000;
+        box-shadow: 0px 0px 20px rgba(255,255,255,0.5);
+	}
+	.dealer-modal-main .dealer-detail-inner-content h5.dealer-heading {
+		color: #58c603;
+		font-weight: 600;
+		margin-top: 30px;
+		margin-bottom: 15px;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-detail-form-group {
+		background: #3f3f3f;
+		padding: 5px 8px;
+		overflow: auto;
+		min-height: 47px;
+		height: auto;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-detail-form-group span {
+		color: #fff;
+		font-weight: 500;
+		display: inline !important;
+		font-size: 15px;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-detail-form-group .form-control {
+		display: inline-block !important;
+		width: 60%;
+		border: 2px solid #fff;
+		height: auto;
+		font-size: 16px;
+		background: #000;
+		color: #fff;
+		float: right;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-detail-form-group .form-control::placeholder {
+		color: #fff;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-detail-form-group .form-control:focus {
+		box-shadow: none !important;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-detail-form-group .select-box .select2-choices {
+		background-color: transparent !important; 
+		border: none !important;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-input-check {
+		margin-top: 13px;
+		margin-bottom: 15px;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-input-check .primary-contact {
+		color: #58c603;
+		font-weight: 600;
+		margin-top: 30px;
+		margin-bottom: 15px;
+		padding-right: 30px;
+		font-size: 1.4rem;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .in-check {
+		display: none;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .border-span {
+		width:26px;
+		height:26px;
+		display:inline-block;
+		border:1px solid #fff;
+		text-align:center;
+		line-height:26px;
+		margin-right:20px;	
+		border-radius:5px;
+		cursor:pointer;
+	}
+	.dealer-modal-main .dealer-detail-inner-content label span { color: #fff; font-weight: normal; }
+	.dealer-modal-main .dealer-detail-inner-content label i{ font-size:20px;	opacity:0; color: #fff; }
+	.dealer-modal-main .dealer-detail-inner-content label:hover .border-span{ background:#000; }
+	.dealer-modal-main .dealer-detail-inner-content input:checked+label i{ opacity:1; color: #fff; }
+	.dealer-modal-main .dealer-detail-inner-content input:checked+label .border-span{ background:#000; }
+
+	.dealer-modal-main .dealer-detail-inner-content .dealer-detail-form-group .require-field:after {
+		content: ' *';
+		color: #fff;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .form-group .btn-custom {
+		background: #58c603;
+	    border: none !important;
+	    color: #fff;
+	    font-weight: 400;
+	    font-size: 16px;
+	    padding: 4px 10px !important;
+	    width: 35%;
+	    margin-top: 10px;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .dealer-margin-top {
+		margin-top: 30px;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .form-group .agreement-anch {
+		color: #00aed9;
+		font-size: 15px;
+		padding-right: 20px;
+		font-weight: 500;
+		text-decoration: underline;
+	}
+	.dealer-modal-main .dealer-detail-inner-content .form-group .btn-close {
+		background: #fff;
+		color: #000;
+		font-weight: 400;
+	    font-size: 16px;
+	    padding: 4px 10px !important;
+	    /*width: 35%;*/
+	    margin-top: 10px;
+
+	}
+	.dealer-modal-main .dealer-detail-inner-content .form-group .btn-save {
+		background: #58c603;
+		color: #fff;
+		font-weight: 400;
+	    font-size: 16px;
+	    padding: 4px 10px !important;
+	    /*width: 35%;*/
+	    margin-top: 10px;
+	    border: none;
+
+	}
+	hr{
+		background-image: -webkit-linear-gradient(left, transparent, rgba(255, 255, 255, 0.4), transparent) !important;
+	}
+	.requirements_white{
+		color:#fff !important;
+	}
+	.requirements_green{
+		background-color: #000 !important;
+	}
+
+	/**** Custom Modal CSS ****/
+	#assign_cqo .modal-sm {
+		width: 90% !important;
+	}
+	#assign_cqo .modal-content {
+		box-shadow: 0px 0px 20px rgba(255,255,255,0.5);
+	}
+	#assign_cqo .modal-header {
+		background: #000;
+	}
+	#assign_cqo .modal-header h4 {
+		color: #fff;
+	}
+	#assign_cqo .modal-body {
+		background: #000;
+	}
+	#assign_cqo .modal-body .form-group {
+		padding-right: 0px !important;
+		padding-left: 0px !important;
+	}
+	#assign_cqo .modal-body .form-group .panel-heading {
+		background-color: #000 !important;
+		border-radius: 0px;
+		border: none;
+	}
+	#assign_cqo .modal-body .form-group .panel-heading h2 {
+		color: #fff;
+		/*margin-bottom: 10px;*/
+	}
+	#assign_cqo .modal-body .form-group .panel-actions {
+		top: 8px !important;
+	}
+	#assign_cqo .modal-body #search_form .panel-body{
+		background: #000;
+		border-radius: 0px;
+		border: 0px;
+		padding-top: 0px;
+	}
+	#assign_cqo .modal-body #search_form .panel-footer {
+		background: #000;
+		border-radius: 0px;
+		border: 0px;
+	}
+	#assign_cqo .modal-body #search_form .panel-footer .search_btnn {
+		border-radius: 0px;
+	}
+	#assign_cqo .modal-body #search_form .panel-body .form-group .form-control {
+		background: transparent;
+		border-bottom: 1px solid #fff !important;
+		color: #fff;
+		border-radius: 0px;
+		border: none;
+	}
+	#assign_cqo .modal-body #search_form .panel-body .form-group .form-control::placeholder {
+		color: #fff;
+	}
+	#assign .panel .panel-body {
+		background: #000;
+		border-radius: 0px;
+	}
+	#assign .panel .panel-body {
+		padding-right: 0px !important;
+		padding-left: 0px !important;		
+	}
+	#assign .panel .panel-body .table-condensed {
+		border-right: 1px solid #ddd !important;
+	}
+	#assign .panel .panel-body .table-condensed thead th{
+		color: #fff;
+	}
+	#assign .panel .panel-body .table-condensed tbody tr{
+		color: #fff;
+		background: #000;
+	}
+
+	/********* Quote Request **********/
+
+	.quote-request-main{
+		padding: 45px 0px 25px;
+	}
+	.quote-request-main .quote-request-inner h3{
+		color: #58c603;
+		font-weight: 600;
+		margin: 20px 0px;
+	}
+	.quote-request-main .quote-request-inner .panel-heading{
+		background: #212121;
+		padding: 10px 15px;
+		border-radius: 0px;
+		margin-bottom: 15px;
+	}
+	.quote-request-main .quote-request-inner .panel-heading .form-group{
+		margin: 0px;
+	}
+	.quote-request-main .quote-request-inner .panel-heading input[type='text']{
+		background: #000;
+		border: 2px solid #fff;
+		color: #fff;
+		height: 28px;
+	}
+	.quote-request-main .quote-request-inner .panel-heading input[type='text']::placeholder{
+		color: #fff;
+	}
+	.quote-request-main .quote-request-inner .panel-heading input[type='text']:focus{
+		box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+	}
+	.quote-request-main .quote-request-inner .btn-upload{
+		background: #58c603;
+	    border: none !important;
+	    color: #fff;
+	    font-weight: 600;
+	    font-size: 20px;
+	    padding: 10px 30px;	    
+	    border-radius: 0px;
+	    margin: 10px 0px;
+	}
+	.quote-request-main .quote-request-inner .quote-right-form{
+		padding: 10px 10px 10px;
+	}
+	.quote-request-main .quote-request-inner .quote-right-form label{
+		color: #fff;
+		margin-top: 2px;
+		margin-bottom: 0px;
+		font-size: 18px;
+	}
+	.quote-request-main .quote-request-inner .quote-right-form input[type='text']{
+		width: 50%;
+		float: right;
+	}
+	.quote-request-main .quote-request-inner .quote-notes-text label{
+		color: #fff;
+		margin: 0px;
+		font-size: 18px;
+	}
+	.quote-request-main .quote-request-inner .quote-notes-text textarea{
+		background: #000;
+		border: 2px solid #fff;
+		color: #fff;
+		height: 28px;
+		resize: none;
+		height: 120px !important;
+	}
+	.quote-request-main .quote-request-inner .quote-notes-text textarea:focus{
+		box-shadow: 0px 0px 10px rgba(255,255,255,0.5);
+	}
+	.quote-request-main .quote-request-inner .quote-request-map{
+		/*margin-top: 30px;*/
+		margin-bottom: 10px;
+	}
+	.quote-request-main .quote-request-inner .quote-request-map #map{
+		width: 100%;
+    	height: 230px;
+	}
+
+	/******* Datatable Loader CSS *********/
+	.dataTables_processing{
+		top: 50%;
+	}
+
+	.quote-request-main .quote-request-inner h4{
+		margin: 0px;
+		color: #58c603;
+		font-weight: 600;
+	}
+	.quote-request-main .quote-request-inner .panel-heading p{
+		color: #fff;
+		/*font-size: 16px;*/
+		/*font-weight: 600;*/
+		margin: 0px;
+	}
+	.download-link-custom{
+		font-weight: normal !important;
+		margin: 20px 0px !important;	
+	}
+
+	.dealer-quote-bottom .form-group .form-control{
+		float: none !important;
+		width: 100% !important;
+	}
+	.btn-remove{
+		border: none;
+		background: none;
+		color: red;
+		font-size: 18px;
+		outline: none;
+		font-weight: 500;
+		padding: 0px;
+		margin: 0px;
+	}
+	.btn-remove:focus,
+	.btn-remove:hover,
+	.btn-remove:active,
+	.btn-remove.active,
+	.btn-remove:visited {
+		border: none;
+		background: none;
+		color: red;
+		outline: none;
+	}
+
+table.dataTable thead .sorting, 
+table.dataTable thead .sorting_asc, 
+table.dataTable thead .sorting_desc {
+    background : none;
+}
+.dataTables_wrapper table thead th {
+    padding-right: 0px !important;
+}
+table.dataTable thead tr {
+  color: black;
+}
+table.dataTable tbody tr {
+  color: white;
+}
+table.dataTable tbody tr input {
+    background-color: black;
+}
+
+#email_trail_modal .modal-content {
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.5);
+}
+#dealer_details .dealer-detail-inner-content{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.5);
+}
+
+.model-new-design{
+    box-shadow: 0px 0px 20px rgba(255,255,255,0.5);    
+}
+.quote-request-inner h3
+{
+	font-weight: normal !important;
+	font-size: 20px;
+}
+.quote-request-inner p
+{
+	color: #f2f2f2;
+	line-height: 15px;
+}
+.quote-request-inner .img-sec
+{
+	margin-top: 100px;
+}
+.quote-request-main .form-control
+{
+	background-color: transparent;
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 5px;
+	height: 40px; 
+}
+.quote-request-main select option 
+{
+	color: #333;
+}
+.mt-30
+{
+	margin-top: 30px;
+}
+.quote-request-main input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;/* Firefox */
+}
+.quote-request-main input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+}
+
+.quote-request-main input::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+}
+.quote-request-main label
+{
+	color: #58c603;
+}
+p.add-note
+{
+	margin-bottom: 40px;
+	color: #58c603 !important;
+}
+.grey-text
+{
+	color: #ccc;
+}
+.btn-green
+{
+	background-color: #3cdd2e;
+	border-radius: 7px;
+	color: #fff;
+	font-weight: bold;
+    padding: 5px 30px;
+    margin-top: 10px;
+}
+.img-sec img
+{
+	float: left;
+	margin-right: 15px;
+}
+@media (max-width: 480px) {
+	.img-sec img
+	{
+		margin:0 auto 15px;
+		float: none;
+	}
+}
