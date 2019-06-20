@@ -642,6 +642,323 @@
                         <div class="toogle" data-plugin-toggle="">
                             <section class="toggle" id="application_section">
                                 <label>APPLICATION FIELDS</label>
+                                <div class="toggle-content" style="padding: 10px;">
+                                    <div class="row row-input">
+                                        <div class="col-md-2">
+
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="purchase_price" class="f-label">Purchase Price</label>
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="purchase_price" class="form-control input-sm" id="purchase_price" onkeypress="return isNumberKey(event)" value="0.00">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-2">
+
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="book_value" class="f-label">Book Value</label>
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="book_value" class="form-control input-sm" id="book_value" onkeypress="return isNumberKey(event)" value="0.00">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-2">
+
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="deposit" class="f-label">Deposit</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <div class="input-group">
+                                                        <input type="text" name="deposit" class="form-control input-sm" id="deposit" value="0.00">
+                                                        <span class="input-group-addon">
+                                                            <input type="checkbox" name="deposit_check" id="deposit_check" value="1" data-toggle="tooltip" data-placement="top" title="By ticking this box, the deposit refunded back to the client and not taken into the account.">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-2">
+
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="trade" class="f-label">Trade Value</label>
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <!-- <input type="text" name="trade" class="form-control input-sm" id="trade" onkeypress="return isNumberKey(event)" value="0.00"> -->
+                                                    <div class="input-group">
+                                                        <input type="text" name="trade" class="form-control input-sm" id="trade" onkeypress="return isNumberKey(event)" value="0.00">
+                                                        <span class="input-group-addon">
+                                                            <input type="checkbox" name="trade_check" id="trade_check" value="1" data-toggle="tooltip" data-placement="top" title="By ticking this box, tradein value will not be included in the tax invoice.">
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="col-md-2">
+
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="payout" class="f-label">Payout</label>
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="payout" class="form-control input-sm" id="payout" onkeypress="return isNumberKey(event)" value="0.00">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- <div class="col-md-2">
+
+                                            <div class="row">
+                                            <div class="col-md-5">
+                                            <label for="amt_to_finance" class="f-label">Amt to Finance</label>
+
+                                            </div>
+                                            <div class="col-md-7">  
+                                            <input type="text" name="amt_to_finance" class="form-control input-sm" id="amt_to_finance" onkeypress="return isNumberKey(event)" value="0.00">
+                                            </div>
+                                            </div>
+
+                                            </div> -->
+
+                                        <div class="col-md-2">
+
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="term" class="f-label">Term</label>
+
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <select class="form-control input-sm" id="term" name="term">
+                                                        <option value="12">12</option>
+                                                        <option value="24">24</option>
+                                                        <option value="36">36</option>
+                                                        <option value="48">48</option>
+                                                        <option value="60">60</option>
+                                                        <option value="72">72</option>
+                                                        <option value="84">84</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="row row-input">
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label class="f-label">Balloon $</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="balloon_amt" id="balloon_amt" class="form-control input-sm" placeholder="$" onkeypress="return isNumberKey(event)" value="0.00">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label class="f-label">Balloon %</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="balloon_percentage" id="balloon_percentage" class="form-control input-sm" placeholder="%" onkeypress="return isNumberKey(event)" value="0.00">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="lender" class="f-label">Lender</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <select name="lender" id="lender" class="form-control input-sm">
+                                                        <option value="ANZ">ANZ</option>
+                                                        <option value="St. George">St. George</option>
+                                                        <option value="Macquarie">Macquarie</option>
+                                                        <option value="Pepper">Pepper</option>
+                                                        <option value="PCCU">PCCU</option>
+                                                        <option value="Liberty">Liberty</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="est_fee" class="f-label">Est Fee ($)</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="est_fee" id="est_fee" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="origination_fee" class="f-label">Orig Fee</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="origination_fee" id="origination_fee" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="gap" class="f-label">GAP</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="gap" id="gap" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-input">
+
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="lti" class="f-label">LTI</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="lti" id="lti" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="comprehensive" class="f-label">Comp Ins.</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="comprehensive" id="comprehensive" class="form-control input-sm">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="rate" class="f-label">Base Rate</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="rate" id="rate" class="form-control input-sm" placeholder="%" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="cust_rate" class="f-label">Cust Rate</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="cust_rate" id="cust_rate" class="form-control input-sm" placeholder="%" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="frequency" class="f-label">Frequency</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <select name="frequency" id="frequency" class="form-control input-sm">
+                                                        <option value="weekly">Weekly</option>
+                                                        <option value="fortnightly">Fortnightly</option>
+                                                        <option value="monthly">Monthly</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="fc_inc_gst" class="f-label">Arrears/Ad</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <select class="form-control input-sm" id="arrears" name="arrears">
+                                                        <option value="Arrears" data-type="0" selected="selected">Arrears</option>
+                                                        <option value="Advance" data-type="1">Advance</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row row-input">
+
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="total_outgoings" class="f-label">Outgoings</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="total_outgoings" id="total_outgoings" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="total_income" class="f-label">Income</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="total_income" id="total_income" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="surp_def_pos" class="f-label">Surp/Def</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="surp_def_pos" id="surp_def_pos" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="naf" class="f-label">NAF</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="naf" id="naf" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="commision" class="f-label">Commision</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="commision" id="commision" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-2">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <label for="payments" class="f-label">Payments($)</label>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <input type="text" name="payments" id="payments" class="form-control input-sm" onkeypress="return isNumberKey(event)">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="toggle-content" style="display: block; margin-top: 15px;" id="application_fields">
                                     <div class="row temp_parent_panel">
                                         <div class="col-md-6 left">
@@ -1800,328 +2117,12 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="toogle" data-plugin-toggle="">
+                        <!-- <div class="toogle" data-plugin-toggle="">
                             <section class="toggle" id="deal_structure">
                                 <label>DEAL STRUCTURE</label>
-                                <div class="toggle-content" style="padding: 10px;">
-                                    <div class="row row-input">
-                                        <div class="col-md-2">
-
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="purchase_price" class="f-label">Purchase Price</label>
-
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="purchase_price" class="form-control input-sm" id="purchase_price" onkeypress="return isNumberKey(event)" value="0.00">
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-2">
-
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="book_value" class="f-label">Book Value</label>
-
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="book_value" class="form-control input-sm" id="book_value" onkeypress="return isNumberKey(event)" value="0.00">
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-2">
-
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="deposit" class="f-label">Deposit</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <div class="input-group">
-                                                        <input type="text" name="deposit" class="form-control input-sm" id="deposit" value="0.00">
-                                                        <span class="input-group-addon">
-                                                            <input type="checkbox" name="deposit_check" id="deposit_check" value="1" data-toggle="tooltip" data-placement="top" title="By ticking this box, the deposit refunded back to the client and not taken into the account.">
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-2">
-
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="trade" class="f-label">Trade Value</label>
-
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <!-- <input type="text" name="trade" class="form-control input-sm" id="trade" onkeypress="return isNumberKey(event)" value="0.00"> -->
-                                                    <div class="input-group">
-                                                        <input type="text" name="trade" class="form-control input-sm" id="trade" onkeypress="return isNumberKey(event)" value="0.00">
-                                                        <span class="input-group-addon">
-                                                            <input type="checkbox" name="trade_check" id="trade_check" value="1" data-toggle="tooltip" data-placement="top" title="By ticking this box, tradein value will not be included in the tax invoice.">
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                        <div class="col-md-2">
-
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="payout" class="f-label">Payout</label>
-
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="payout" class="form-control input-sm" id="payout" onkeypress="return isNumberKey(event)" value="0.00">
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                        <!-- <div class="col-md-2">
-
-                                            <div class="row">
-                                            <div class="col-md-5">
-                                            <label for="amt_to_finance" class="f-label">Amt to Finance</label>
-
-                                            </div>
-                                            <div class="col-md-7">	
-                                            <input type="text" name="amt_to_finance" class="form-control input-sm" id="amt_to_finance" onkeypress="return isNumberKey(event)" value="0.00">
-                                            </div>
-                                            </div>
-
-                                            </div> -->
-
-                                        <div class="col-md-2">
-
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="term" class="f-label">Term</label>
-
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <select class="form-control input-sm" id="term" name="term">
-                                                        <option value="12">12</option>
-                                                        <option value="24">24</option>
-                                                        <option value="36">36</option>
-                                                        <option value="48">48</option>
-                                                        <option value="60">60</option>
-                                                        <option value="72">72</option>
-                                                        <option value="84">84</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="row row-input">
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label class="f-label">Balloon $</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="balloon_amt" id="balloon_amt" class="form-control input-sm" placeholder="$" onkeypress="return isNumberKey(event)" value="0.00">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label class="f-label">Balloon %</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="balloon_percentage" id="balloon_percentage" class="form-control input-sm" placeholder="%" onkeypress="return isNumberKey(event)" value="0.00">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="lender" class="f-label">Lender</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <select name="lender" id="lender" class="form-control input-sm">
-                                                        <option value="ANZ">ANZ</option>
-                                                        <option value="St. George">St. George</option>
-                                                        <option value="Macquarie">Macquarie</option>
-                                                        <option value="Pepper">Pepper</option>
-                                                        <option value="PCCU">PCCU</option>
-                                                        <option value="Liberty">Liberty</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="est_fee" class="f-label">Est Fee ($)</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="est_fee" id="est_fee" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="origination_fee" class="f-label">Orig Fee</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="origination_fee" id="origination_fee" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="gap" class="f-label">GAP</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="gap" id="gap" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row row-input">
-
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="lti" class="f-label">LTI</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="lti" id="lti" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="comprehensive" class="f-label">Comp Ins.</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="comprehensive" id="comprehensive" class="form-control input-sm">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="rate" class="f-label">Base Rate</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="rate" id="rate" class="form-control input-sm" placeholder="%" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="cust_rate" class="f-label">Cust Rate</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="cust_rate" id="cust_rate" class="form-control input-sm" placeholder="%" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="frequency" class="f-label">Frequency</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <select name="frequency" id="frequency" class="form-control input-sm">
-                                                        <option value="weekly">Weekly</option>
-                                                        <option value="fortnightly">Fortnightly</option>
-                                                        <option value="monthly">Monthly</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="fc_inc_gst" class="f-label">Arrears/Ad</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <select class="form-control input-sm" id="arrears" name="arrears">
-                                                        <option value="Arrears" data-type="0" selected="selected">Arrears</option>
-                                                        <option value="Advance" data-type="1">Advance</option>
-                                                    </select>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row row-input">
-
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="total_outgoings" class="f-label">Outgoings</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="total_outgoings" id="total_outgoings" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="total_income" class="f-label">Income</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="total_income" id="total_income" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="surp_def_pos" class="f-label">Surp/Def</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="surp_def_pos" id="surp_def_pos" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="naf" class="f-label">NAF</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="naf" id="naf" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="commision" class="f-label">Commision</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="commision" id="commision" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <div class="row">
-                                                <div class="col-md-5">
-                                                    <label for="payments" class="f-label">Payments($)</label>
-                                                </div>
-                                                <div class="col-md-7">
-                                                    <input type="text" name="payments" id="payments" class="form-control input-sm" onkeypress="return isNumberKey(event)">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </section>
-                        </div>
+                        </div> -->
                         <div class="toogle" data-plugin-toggle="">
                             <section class="toggle">
                                 <label>ACTIONS HISTORY</label>

@@ -2913,7 +2913,7 @@ $("#forward_pdf_form").find(".email_attachments").dropzone({
 	this.on("sending", function(file, xhr, formData){}),
 	this.on("success", function(file, response){
 	$("#forward_pdf_form").find("#hidden_images").append('<input class="hidden_image" type="hidden" name="email_file[]" value="'+response+'">');
-}),
+})
 	this.on("queuecomplete", function(){});
 },
 });

@@ -3617,7 +3617,7 @@
 				dataType: 'json',
 				success: function(result){
 					var event_arr = $('#calendar').fullCalendar('clientEvents', fapplication_id);
-					var final_event = event_arr[0];
+					var final_event = event_arr;
 					final_event.backgroundColor = result.color;
 					
 					$("#calendar").fullCalendar('updateEvent',final_event);

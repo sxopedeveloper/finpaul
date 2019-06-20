@@ -360,7 +360,7 @@ if ($login_type=="Admin")
 				setTimeout(reload_notifications, 120000);
 			}
 		});
-	};
+	}
 
 	function get_notifications ()
 	{
@@ -559,7 +559,7 @@ else if ($login_type == 1)
 				setTimeout(reload_notifications, 300000);
 			}
 		});
-	};
+	}
 </script>
 <?php			
 }
