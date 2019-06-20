@@ -932,8 +932,8 @@
            let trade_value_given = $('#tradein_valuaton').val()== '' ? 0 :$('#tradein_valuaton').val(); 
            let aftermarket_revenue = $('#aftermarket_revenue').val()== '' ? 0 :$('#aftermarket_revenue').val(); 
            let finance_revenue = $('#finance_revenue_comp').val()== '' ? 0 :$('#finance_revenue_comp').val();
-           let new_veh_sec = 
-          var lead_ticked = 0;
+           let new_veh_sec = '';
+           var lead_ticked = 0;
            if($('#checkbox').prop("checked") == true){
                
                 lead_ticked = 165;

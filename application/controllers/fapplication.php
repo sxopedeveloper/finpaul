@@ -186,7 +186,7 @@ class Fapplication extends Admin_main
 			$data['email_templates'] = $this->fapplication_model->get_email_templates($data['user_id']);
 			$data['system_email_templates'] = $this->fapplication_model->get_system_email_templates($data['user_id']);
         
-		//echo json_encode($data); die();
+		//echo json_encode($data['system_email_templates']); die();
 		$current_date = date('Y-m-d');
 		$current_month = date('m');
 		$current_year = date('Y');
@@ -2202,7 +2202,7 @@ class Fapplication extends Admin_main
 		$computataion_data = $this->db->get()->result_array();
 		$computation_data = $computataion_data[0];
 
-		print_r($computation_data);
+		//print_r($computation_data);
 
 		$error_arr = [];
 		$warning_arr = [];
@@ -3720,7 +3720,6 @@ class Fapplication extends Admin_main
 							</a>';
 						}
 							
-						
 						//echo (count($deal_requirements['errors'])); die();
 						if ($lead['status']==0 || $lead['status']==1 || $lead['status']==2)
 						{

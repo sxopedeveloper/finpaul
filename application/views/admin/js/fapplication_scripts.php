@@ -1,6 +1,8 @@
 <script src="http://staging-new.finquote.com.au/assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js?v=<?php echo time();?>"></script>
 <script type="text/javascript">
     $(document).ready(function(){
+
+
         $('#datepicker1,#datepicker2,#datepicker3').datepicker({
             format: 'dd-mm-yyyy',
             todayBtn: "linked",
@@ -4940,7 +4942,9 @@
                 id: email_template_id,
                 fq_acct_id: fq_acct_id
             };
-            CKEDITOR.instances.edit_template_content.setData(''); 
+            
+            CKEDITOR.instances.edit_template_content.setData('aa'); 
+
             $.ajax({
                 type: "POST",
                 url: "<?php echo site_url("fapplication/get_system_email_template"); ?>",

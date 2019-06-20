@@ -81,6 +81,7 @@ if(data.lead_status_tender == 'start_tender'){
 }
 $('#fapplication_traidin').html(data.tradein_html);
 //$('#fapplication_traidin').html(data.traidin);
+//console.log(data.computation);
 $('#fapplication_computation').html(data.computation);
 $('#fapplication_payment').html(data.payment);
 $('#fapplication_email_actions').html(data.email_actions);
